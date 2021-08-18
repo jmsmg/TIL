@@ -12,3 +12,6 @@
 
 ## SQLD
 - [SQLD](https://github.com/jmsmg/TIL/tree/main/SQLD/QLD필기.md)
+
+## 도서
+- [데이터_과학자와_엔지니어를_위한_인터뷰_문답집](https://github.com/jmsmg/TIL/tree/main/%EB%8F%84%EC%84%9C/데이터_과학자와_엔지니어를_위한_인터뷰_문답집.md)
