@@ -1,4 +1,4 @@
-# TIL# Today I Learned(TIL)
+# Today I Learned(TIL)
 [![Blog](https://img.shields.io/badge/Blog-jmsmg.github.io-green.svg)](https://jmsmg.github.io/)
 
 ---
