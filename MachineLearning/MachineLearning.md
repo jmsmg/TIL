@@ -25,8 +25,14 @@
           > hyper-parameter : 인간이 설정해야하는 값
             > HPO(hyper parameter tuning)
           > error 값 = inf(infinite)
-    - Polynomial
 
+    - Logistic Regression(=Sigmoid function)
+      > binary classification 문제 해결을 위한 모델 cutoff를 넘는 경우 1 그외는 0 예측 가능
+      - Cost function
+        - Cross-entropy
+
+    - Polynomial
+ 
 2. Decision Tree
 3. Random forest
 4. Classifcation
