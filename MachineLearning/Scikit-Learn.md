@@ -19,6 +19,10 @@
     # 4. 모델 학습시키기(Model fitting)
     model.fit(train_X, train_Y)
 
+     # y = a x + b
+    print('Coefficients : ', model.coef_) # a값
+    print('Intercept : ', model.intercept_) # b값
+    
     # 5. 모델로 새로운 데이터 예측하기 (Predict on test data)
     - model.predict(test_X)
     - model.predict_proba(test_X)
@@ -29,4 +33,8 @@
     # sklearn.metrics.recall_score
     # sklearn.metrics.r2_score
     ```
+
+   - 입력데이터의 자릿수, Traing data의 자릿수, Test data의 자릿수 확인해서 under fitting인지 over fitting인지 구분
+
+
 엑셀 -> 전처리 -> numpy array로 변환 -> scikit learn으로 돌림
