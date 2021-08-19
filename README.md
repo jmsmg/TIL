@@ -6,6 +6,8 @@
 
 ## MachineLearning
 - [MachineLearning](https://github.com/jmsmg/TIL/tree/main/MachineLearning/MachineLearning.md)
+- [Scikit-Learn](https://github.com/jmsmg/TIL/tree/main/MachineLearning/Scikit-Learn.md)
+
 
 ## ADsP
 - [ADsP 1과목](https://github.com/jmsmg/TIL/tree/main/ADsP/ADsP필기노트.md)
