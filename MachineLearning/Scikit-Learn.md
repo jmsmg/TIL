@@ -1,6 +1,6 @@
 # Scikit-Learn
 
-1. 정형데이터
+1. 순서
     ``` python
     # 1. 데이터셋 불러오기
     sklearn.datasets.load_[data]()
@@ -35,6 +35,16 @@
     ```
 
    - 입력데이터의 자릿수, Traing data의 자릿수, Test data의 자릿수 확인해서 under fitting인지 over fitting인지 구분
+
+2. ROC curve 시각화
+    ```python
+    from sklean.metrics import roc_curve, auc
+    
+    # fpr = x, tpr = y, _ = Threshold
+    fpr, tpr, _ = roc_curve(y_ture=y_test, y_score=pred_test[:,1])
+
+    roc_auc = auc(fpr, tpr)
+    ```
 
 
 엑셀 -> 전처리 -> numpy array로 변환 -> scikit learn으로 돌림
