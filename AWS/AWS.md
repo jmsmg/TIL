@@ -53,9 +53,27 @@
         - 전용 호스트
           - 물리적 서버를 통째로 빌림(제일 비쌈)
 
-    1. EC2 확장성, 탄력성
+    3. EC2 확장성, 탄력성
         - 필요한 리소스만으로 시작하고 상황에 따라 확장 및 축소
         - 수평(갯수) 확장, 수직(사양) 확장
         - Amazon EC2 Auto Scaling : 인스턴스 자동 추가 제거
           - 동적 조정 : 수요 변화에 대응
           - 예측 조정 : 예측된 수요에 따라 자동 예약  
+  
+  3. Elastic Load Balncing(ELB)
+    1. 리전 수준 구조
+        - front-end -> ELB -> Back-end로 전달
+        - 가장 적은 백엔드로 요청 
+        - 그림추가부분(업로드 아직 안함)
+
+  4. 메시징 및 대기열
+      > 밀결합된 아키텍처 -> 소결합된 아키텍처(메시지 대기열)
+
+    1. SNS(Simple Notification Service)
+        - PUb/Sub(게시/구독) 서비스
+        - 구독자가 Web Server, E-mail address, AWS Lambda function
+
+    2. SQS(Simple Queue Service)
+        - 메시지 손실이나 다른 서비스 사용 없이 소프트웨어 구성요소간에 메시지를 전송, 저장, 수신 가능
+        - 가장 적합한 대기열로 넣어줌
+    > ![SNS vs SQS](https://seohyun0120.tistory.com/entry/AWS-SNS-vs-SQS-%EC%B0%A8%EC%9D%B4%EC%A0%90)
