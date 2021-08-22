@@ -40,12 +40,12 @@
         - 온디맨드(비쌈)
           - 시간당, 초당 지불
 
-        - Savin Plans
+        - Savings Plans
           - 일정(평균) 사용량 기준으로 지불
-            > 1~3년간 일정한 사용량에 적합
 
         - 예약 인스턴스
           - 약정 기간 설정하여 저렴하게
+            > 1년 or 3년간 일정한 사용량에 적합
 
         - 스팟 인스턴스
           - 백그라운드 처리작업 부분 사용
@@ -53,27 +53,58 @@
         - 전용 호스트
           - 물리적 서버를 통째로 빌림(제일 비쌈)
 
-    3. EC2 확장성, 탄력성
+    3. EC2 Auto Scaling (확장성, 탄력성)
         - 필요한 리소스만으로 시작하고 상황에 따라 확장 및 축소
         - 수평(갯수) 확장, 수직(사양) 확장
         - Amazon EC2 Auto Scaling : 인스턴스 자동 추가 제거
           - 동적 조정 : 수요 변화에 대응
           - 예측 조정 : 예측된 수요에 따라 자동 예약  
   
-  3. Elastic Load Balncing(ELB)
-    1. 리전 수준 구조
+  1. Elastic Load Balncing(ELB)
+      > 단일 Amazon EC2 인스턴스가 전체 워크로드를 처리하지 않아도 되도록 보장 
+    4. 리전 수준 구조
         - front-end -> ELB -> Back-end로 전달
         - 가장 적은 백엔드로 요청 
         - 그림추가부분(업로드 아직 안함)
 
-  4. 메시징 및 대기열
+  2. 메시징 및 대기열
       > 밀결합된 아키텍처 -> 소결합된 아키텍처(메시지 대기열)
 
-    1. SNS(Simple Notification Service)
+    5. SNS(Simple Notification Service)
         - PUb/Sub(게시/구독) 서비스
         - 구독자가 Web Server, E-mail address, AWS Lambda function
 
-    2. SQS(Simple Queue Service)
+    6. SQS(Simple Queue Service)
         - 메시지 손실이나 다른 서비스 사용 없이 소프트웨어 구성요소간에 메시지를 전송, 저장, 수신 가능
         - 가장 적합한 대기열로 넣어줌
-    > ![SNS vs SQS](https://seohyun0120.tistory.com/entry/AWS-SNS-vs-SQS-%EC%B0%A8%EC%9D%B4%EC%A0%90)
+
+    > [SNS vs SQS](https://seohyun0120.tistory.com/entry/AWS-SNS-vs-SQS-%EC%B0%A8%EC%9D%B4%EC%A0%90)
+
+3. Serverless
+  3. AWS Lambda
+    - 15분 미만 실행 권장(Web Server)
+
+  4. Amazon Elastic Container Service(Amazon ECS)
+    - Container(code Package)
+      > 가상머신과 유사함 격리되어 실행
+    - Container Orchestration
+
+
+  5. Amzaon Elastic Kubernetes Service(Amazon EKS)
+
+> Fargate : Serverless Computing Flatform (ECS or EKS)
+
+
+
+---
+
+## Processing
+
+1. Server vs Serverless
+  - Server(EC2) : 완전한 OS
+    > Serverless(AWS Lambda)
+  
+    - Server
+    - Serverless
+      - ECS or EKS
+      - EC2 or Fargate 
