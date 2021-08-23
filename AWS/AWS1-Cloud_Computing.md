@@ -1,4 +1,4 @@
-# AWS
+# Cloud Computing
 
 ## Client-Server Model
 
@@ -60,39 +60,41 @@
           - 동적 조정 : 수요 변화에 대응
           - 예측 조정 : 예측된 수요에 따라 자동 예약  
   
-  1. Elastic Load Balncing(ELB)
-      > 단일 Amazon EC2 인스턴스가 전체 워크로드를 처리하지 않아도 되도록 보장 
-    4. 리전 수준 구조
-        - front-end -> ELB -> Back-end로 전달
-        - 가장 적은 백엔드로 요청 
-        - 그림추가부분(업로드 아직 안함)
+    4. Elastic Load Balncing(ELB)
+        > 단일 Amazon EC2 인스턴스가 전체 워크로드를 처리하지 않아도 되도록 보장
+    
+        - 리전 수준 구조
+          - front-end -> ELB -> Back-end로 전달
+          - 가장 적은 백엔드로 요청 
+          - 그림추가부분(업로드 아직 안함)
 
-  2. 메시징 및 대기열
-      > 밀결합된 아키텍처 -> 소결합된 아키텍처(메시지 대기열)
-
-    5. SNS(Simple Notification Service)
+3. 메시징 및 대기열
+    > 밀결합된 아키텍처 -> 소결합된 아키텍처(메시지 대기열)
+  
+    1. SNS(Simple Notification Service)
         - PUb/Sub(게시/구독) 서비스
         - 구독자가 Web Server, E-mail address, AWS Lambda function
 
-    6. SQS(Simple Queue Service)
+    2. SQS(Simple Queue Service)
         - 메시지 손실이나 다른 서비스 사용 없이 소프트웨어 구성요소간에 메시지를 전송, 저장, 수신 가능
-        - 가장 적합한 대기열로 넣어줌
+        - 가장 적합한 대기열로 넣어줌  
 
-    > [SNS vs SQS](https://seohyun0120.tistory.com/entry/AWS-SNS-vs-SQS-%EC%B0%A8%EC%9D%B4%EC%A0%90)
-
-3. Serverless
-  3. AWS Lambda
-    - 15분 미만 실행 권장(Web Server)
-
-  4. Amazon Elastic Container Service(Amazon ECS)
-    - Container(code Package)
-      > 가상머신과 유사함 격리되어 실행
-    - Container Orchestration
+        [SNS vs SQS](https://seohyun0120.tistory.com/entry/AWS-SNS-vs-SQS-%EC%B0%A8%EC%9D%B4%EC%A0%90)
 
 
-  5. Amzaon Elastic Kubernetes Service(Amazon EKS)
+4. Serverless
+    1. AWS Lambda
+       - 15분 미만 실행 권장(Web Server)
 
-> Fargate : Serverless Computing Flatform (ECS or EKS)
+     2. Amazon Elastic Container Service(Amazon ECS)  
+        - Container(code Package)
+          > 가상머신과 유사함 격리되어 실행
+        - Container Orchestration
+
+
+    3. Amzaon Elastic Kubernetes Service(Amazon EKS)
+
+        > Fargate : Serverless Computing Flatform (ECS or EKS)
 
 
 
