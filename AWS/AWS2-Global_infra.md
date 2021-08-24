@@ -8,7 +8,7 @@
     - 기능 가용성(새로운 기능이 나올때 다를 수 있음)
     - 요금(센터별로 다름)
 
-    ![region]()
+    ![region](../img/Region.png)
 
 2. Edge Location(Amazon Cloud Front)
     - 브라질 -> 한국
