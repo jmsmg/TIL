@@ -13,6 +13,23 @@
 2. Edge Location(Amazon Cloud Front)
     - 브라질 -> 한국
     - EC2 instance(브라질) -> 캐시 전송 -> Edge Location(한국) -> 고객
+
+3. Provisioning
+    > 사용자 요구사항에 맞게 할당, 배치, 배포하여 시스템을 사용가능하도록 준비하는 절차
+    - API 호출
+    - AWS Management Console
+      > 브라우저 기반
+    - AWS CLI(Command-Line Interface)
+      - API 명령어 실행(복붙)
+    - AWS SDK(Software Development Kit)
+      - 개발키트
+
+    - AWS Elastic Beanstalk
+    - AWS CloudFormation
+
+    ![cloudformation](../img/CloudFomation.png)
+
+
 ---
 
 고가용성 및 내결함성
@@ -21,4 +38,6 @@ Amazon Braket
 CDN
 Amazon Cloud front
 Route 53
-AWS outposts
+AWS outposts 실물로 설치해줌
+Elastic beanstalk
+cloudFormation
