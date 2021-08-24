@@ -31,7 +31,7 @@
       - binary classification 문제 해결을 위한 모델 cutoff를 넘는 경우 1 그외는 0 예측 가능
         - Cost function
           - Cross-entropy(DeepLearning)
-      - Multi-class / Multinomaial calssification
+      - Multi-class / Multinomaial classification
         - Cost function 
           - Softmax Algorithm(DeepLearning)
     
