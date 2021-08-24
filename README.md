@@ -6,19 +6,19 @@
 ## Python
 
 ## MachineLearning
-- [MachineLearning](https://github.com/jmsmg/TIL/tree/main/MachineLearning/MachineLearning.md)
-- [Scikit-Learn](https://github.com/jmsmg/TIL/tree/main/MachineLearning/Scikit-Learn.md)
+- [MachineLearning](https://github.com/jmsmg/TIL/blob/main/MachineLearning/MachineLearning.md)
+- [Scikit-Learn](https://github.com/jmsmg/TIL/blob/main/MachineLearning/Scikit-Learn.md)
 
 ## ADsP
-- [ADsP 1과목](https://github.com/jmsmg/TIL/tree/main/ADsP/ADsP필기노트.md)
+- [ADsP 1과목](https://github.com/jmsmg/TIL/blob/main/ADsP/ADsP필기노트.md)
 
 ## SQLD
-- [SQLD](https://github.com/jmsmg/TIL/tree/main/SQLD/SQLD필기.md)
+- [SQLD](https://github.com/jmsmg/TIL/blob/main/SQLD/SQLD필기.md)
 
 ## AWS
-- [AWS_Cloud_Computing](https://github.com/jmsmg/TIL/tree/main/AWS/AWS1-Cloud_Computing.md)
-- [AWS-Global_Infra](https://github.com/jmsmg/TIL/tree/main/AWS/AWS2-Global_Infra.md)
+- [AWS_Cloud_Computing](https://github.com/jmsmg/TIL/blob/main/AWS/AWS1-Cloud_Computing.md)
+- [AWS-Global_Infra](https://github.com/jmsmg/TIL/blob/main/AWS/AWS2-Global_infra.md)
 
 
 ## 도서
-- [데이터_과학자와_엔지니어를_위한_인터뷰_문답집](https://github.com/jmsmg/TIL/tree/main/%EB%8F%84%EC%84%9C/데이터_과학자와_엔지니어를_위한_인터뷰_문답집.md)
+- [데이터_과학자와_엔지니어를_위한_인터뷰_문답집](https://github.com/jmsmg/TIL/blob/main/%EB%8F%84%EC%84%9C/데이터_과학자와_엔지니어를_위한_인터뷰_문답집.md)
