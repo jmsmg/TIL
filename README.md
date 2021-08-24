@@ -6,7 +6,8 @@
 ## Python
 
 ## MachineLearning
-- [MachineLearning](https://github.com/jmsmg/TIL/blob/main/MachineLearning/MachineLearning.md)
+- [MachineLearning1](https://github.com/jmsmg/TIL/blob/main/MachineLearning/MachineLearning1.md)
+- [MachineLearning2](https://github.com/jmsmg/TIL/blob/main/MachineLearning/MachineLearning2.md)
 - [Scikit-Learn](https://github.com/jmsmg/TIL/blob/main/MachineLearning/Scikit-Learn.md)
 
 ## ADsP
