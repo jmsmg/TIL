@@ -17,8 +17,10 @@
 - [SQLD](https://github.com/jmsmg/TIL/blob/main/SQLD/SQLD필기.md)
 
 ## AWS
-- [AWS_Cloud_Computing](https://github.com/jmsmg/TIL/blob/main/AWS/AWS1-Cloud_Computing.md)
-- [AWS-Global_Infra](https://github.com/jmsmg/TIL/blob/main/AWS/AWS2-Global_infra.md)
+- [AWS1_Cloud_Computing](https://github.com/jmsmg/TIL/blob/main/AWS/AWS1-Cloud_Computing.md)
+- [AWS2-Global_Infra](https://github.com/jmsmg/TIL/blob/main/AWS/AWS2-Global_infra.md)
+- [AWS3-Network](https://github.com/jmsmg/TIL/blob/main/AWS/AWS3-Network.md)
+- [AWS_marketplace](https://github.com/jmsmg/TIL/blob/main/AWS/AWS_marketplace.md)
 
 
 ## 도서
