@@ -12,5 +12,5 @@
         > 비율은 달라도 됨
        - 60% Training data로 학습
        - 20% Validation dat로 모델 Optimization
-       - 20% Test dat로 모델 평가
+       - 20% Test data로 모델 평가
  
