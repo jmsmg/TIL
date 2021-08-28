@@ -36,10 +36,10 @@ difftool "vscode"
 ---------------
 
 텍스트파일 만들기
-echo xxxxx > a.txt  
+echo xxxxx >> a.txt  
 
 내용 추가
-echo xxx >> a.txt  
+echo xxx > a.txt  
 
 모든 txt 파일 tracking
 git add *txt  
@@ -68,6 +68,7 @@ git branch -m 기존브랜치이름 새로운브랜치이름
 
 ---오리진의 마스터계정으로 내용물을 업로드 
 git push -u origin master    (맨뒤가 브랜치 이름)
+
 ---강제푸쉬(원격저장소 내용 삭제됨)
 git push -u origin +master    (맨뒤가 브랜치 이름)
 
