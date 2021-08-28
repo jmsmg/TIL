@@ -22,9 +22,9 @@
         - MSE의 미분값을 구해 -(음수)가 나오면 theta(Weight)값을 오른쪽으로 이동(양수가 나오면 반대로)
         - 기울기 0까지 진행
         - Learning Rate(학습률, 보폭) 설정 
-          > hyper-parameter : 인간이 설정해야하는 값
-            > HPO(hyper parameter tuning)
-          > error 값 = inf(infinite)
+          > hyper-parameter : 인간이 설정해야하는 값  
+            > HPO(hyper parameter tuning)  
+          > error 값 = inf(infinite)  
 
     - Logistic Regression(=Sigmoid function)
       > Threshold(Decision boundary)를 끌어 올리거나 내릴 수 있음 
