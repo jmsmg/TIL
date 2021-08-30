@@ -1,7 +1,49 @@
-# 깃허브 용어 정리
+# Github 기본 명령어
 
-## 정리 아직 안됨
+1. 폴더 생성
 
+2. Git 관리하에 폴더 넣기(레파지토리)
+   - git init
+
+   - git config --global user.name "(내 이름)"
+   - git config --global user.email "(내 이메일)"
+
+3. Git 파일들 상태 확인
+   - git status
+
+4. Git 커밋
+   - git add .
+   - git commit -m "메시지"
+
+5. Git reset, revert
+   - git reset (일련번호 6자리) -- hard 
+   - git revert (일련번호 6자리)
+
+---
+
+# Github branch 명령어
+
+1. branch 생성
+   - git branch (branch 이름)
+
+2. branch 이동
+   - git branch (branch 이름)
+
+3. branch 병합(merge, rebase)
+   > 메인 branch로 이동을 한 뒤
+   - branch merge (가져올 branch 이름)
+
+4. branch 삭제
+   - git branch -D (branch 이름)
+
+5. branch 그래프 확인 방법
+   - git log --graph --all --decorate
+
+
+6. branch conflict 상황
+
+
+## Github 용어 전체
 
 git config --list
 
