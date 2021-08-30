@@ -14,7 +14,7 @@ git add . -> commit 까지만
 
 git branch
 
-git checkout -b gon ( 로컬에 gon branch를 만듬)
+git checkout -b gon (로컬에 gon branch를 만듬)
 
 > fatal: refusing to merge unrelated histories 근본이 다르다
 
@@ -24,7 +24,7 @@ git pull origin 브랜치명 --allow-unrelated-histories
 ---생성한 로컬브랜치를 원격저장소에 푸쉬
 
 git push origin 푸쉬할 브랜치 이름
-git pull orign 브랜치이름
+git pull origin 브랜치이름
 
 ---생성한 로컬브랜치를 원격저장소의 해당 브랜치와 연동 
 git branch --set-upstream-to origin/gon   (defalut값을 gon branch로 지정)
