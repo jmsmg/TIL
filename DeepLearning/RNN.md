@@ -2,7 +2,7 @@
 - 시계열(순차)데이터를 모델링 하는 일종의 주류 딥러닝 모델
 - Feed-Forward Nurel Network(피드 포워드 신경망)의 개선 목적으로 나옴
 
-## Feed-Forwad Neural Network(=Neural Network Language Model)
+## Feed-Forward Neural Network(=Neural Network Language Model)
 
 - Window : NNLM은 다음 단어를 예측할 때, 앞의 모든 단어를 참고하지 않고 정해진 n개의 단어만 참고하여 예측하는데 이 n값이 Window
 
