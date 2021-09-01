@@ -12,7 +12,7 @@
 - [Scikit-Learn](https://github.com/jmsmg/TIL/blob/main/MachineLearning/Scikit-Learn.md)
 
 ## MachineLearning
-- [DeepLearning](https://github.com/jmsmg/TIL/blob/main/DeepLearning/RNN.md)
+- [RNN](https://github.com/jmsmg/TIL/blob/main/DeepLearning/RNN.md)
 
 ## ADsP
 - [ADsP 1과목](https://github.com/jmsmg/TIL/blob/main/ADsP/ADsP1.md)
@@ -23,9 +23,10 @@
 - [SQLD](https://github.com/jmsmg/TIL/blob/main/SQLD/SQLD필기.md)
 
 ## GitHub
-- [Github 순서](https://github.com/jmsmg/TIL/blob/main/GitHub/Github.md)
+- [Github 순서](https://github.com/jmsmg/TIL/blob/main/GitHub/GitHub.md)
     > 정리 요망
 - [GitCommand 정리](https://github.com/jmsmg/TIL/blob/main/GitHub/GitCommand.md)
+- [GitBlog](https://github.com/jmsmg/TIL/blob/main/GitHub/GitBlog.md)
 
 ## AWS
 - [AWS1_Cloud_Computing](https://github.com/jmsmg/TIL/blob/main/AWS/AWS1-Cloud_Computing.md)
