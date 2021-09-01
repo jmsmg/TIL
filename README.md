@@ -11,6 +11,9 @@
 - [MachineLearning2](https://github.com/jmsmg/TIL/blob/main/MachineLearning/MachineLearning2.md)
 - [Scikit-Learn](https://github.com/jmsmg/TIL/blob/main/MachineLearning/Scikit-Learn.md)
 
+## MachineLearning
+- [DeepLearning](https://github.com/jmsmg/TIL/blob/main/DeepLearning/RNN.md)
+
 ## ADsP
 - [ADsP 1과목](https://github.com/jmsmg/TIL/blob/main/ADsP/ADsP1.md)
 - [ADsP 2과목](https://github.com/jmsmg/TIL/blob/main/ADsP/ADsP2.md)
