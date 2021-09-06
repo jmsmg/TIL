@@ -22,4 +22,4 @@
 
 ---
 
-![RNN2](../img/math5.png)
+![RNN2](../img/math5.PNG)
