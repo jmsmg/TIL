@@ -1,5 +1,3 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
 # Time_Series Data⏳
 
 ## 시계열 데이터의 종류
@@ -38,13 +36,13 @@
 
   - x값이 음수인 지수함수만큼 가중치가 줄어듬(과거의 경향성 // 지수적 감쇠)
   - 비교
-    - n개의 MA = <img src="https://render.githubusercontent.com/render/math?math=\dfrac{y_{-1} + y_{-2} + …..+ y_{-n}}{n}">
+    - n개의 MA = ![MA](.../../../../img/timeseries_MA.png)
 
-    - <img src="https://render.githubusercontent.com/render/math?math=\hat y_{t} = \alpha(1−\alpha)y_{T−1}+\alpha(1−\alpha)2y_{T−2}+⋯">
+    - ![ewm](../../img/timeseries_ewm.png)
 
-    - <img src="https://render.githubusercontent.com/render/math?math=\alpha"> = 지수평활계수  
-      ![](../../img/timeseries_표.png)
-    - 표값에서 <img src="https://render.githubusercontent.com/render/math?math=y_{T-1}">씩 해줘야함 (오류)
+    - ![alpha](../../img/timeseries_alpha.png) = 지수평활계수  
+      ![표](../../img/timeseries_표.png)
+    - 표값에서 ![yhat](../../img/timeseries_yhat.png)씩 해줘야함 (오류)
 
 #### 지수 평활법 특징
 
