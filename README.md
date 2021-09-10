@@ -6,12 +6,17 @@
 ## Python
 - [Python](https://github.com/jmsmg/TIL/blob/main/Python/Python.md)
 
+## 기초수학
+- [기초 수학](https://github.com/jmsmg/TIL/blob/main/기초수학/mathmatics.md)
+
 ## MachineLearning
-- [MachineLearning1](https://github.com/jmsmg/TIL/blob/main/MachineLearning/MachineLearning1.md)
+- SuperviesedLearning
+  - [MachineLearning1](https://github.com/jmsmg/TIL/tree/main/MachineLearning/SuperviesedLearning/MachineLearning1.md)
+  - [SVM](https://github.com/jmsmg/TIL/tree/main/MachineLearning/SuperviesedLearning/SVM.md)
 - [MachineLearning2](https://github.com/jmsmg/TIL/blob/main/MachineLearning/MachineLearning2.md)
 - [Scikit-Learn](https://github.com/jmsmg/TIL/blob/main/MachineLearning/Scikit-Learn.md)
 
-## MachineLearning
+## DeepLearning
 - [RNN](https://github.com/jmsmg/TIL/blob/main/DeepLearning/RNN.md)
 
 ## ADsP
@@ -35,8 +40,7 @@
 - [AWS_Marketplace](https://github.com/jmsmg/TIL/blob/main/AWS/AWS_Marketplace.md)
 
 ## 논문
-- [The Batch](https://github.com/jmsmg/TIL/blob/main/TheBatch/)
-
+- [The Batch](https://github.com/jmsmg/TIL/tree/main/논문/TheBatch)
 
 ## 도서
-- [데이터_과학자와_엔지니어를_위한_인터뷰_문답집](https://github.com/jmsmg/TIL/blob/main/%EB%8F%84%EC%84%9C/데이터_과학자와_엔지니어를_위한_인터뷰_문답집.md)
+- [데이터_과학자와_엔지니어를_위한_인터뷰_문답집](https://github.com/jmsmg/TIL/blob/main/도서/데이터_과학자와_엔지니어를_위한_인터뷰_문답집.md)
