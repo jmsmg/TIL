@@ -13,10 +13,10 @@
     > 라그랑지안 승수법, KKT(Karush-Kun-Tucker) 조건을 활용한 풀이 http://j.mp/39jz9Y8
 
 ### 2-1. Soft-Margin SVM
-
-- Magin = ![SVMmath](../../img/SVM_math.png)를 최대화하기 위해 역수를 최소화한 후 미분을 위해 제곱
-- C : 얼마만큼 여유를 가지고 error를 허용할건지 판단해주는 값(C가 클수록 오차허용도가 줄어듬)
-    > hyper parameter  
+- hyper parameter  
+  - Magin = ![SVMmath](../../img/SVM_math.png)를 최대화하기 위해 역수를 최소화한 후 미분을 위해 제곱
+  - XI : Noise값
+  - C : 얼마만큼 여유를 가지고 error를 허용할건지 판단해주는 값(C가 클수록 오차허용도가 줄어듬)
 
 ![SVM2](../../img/SVM2.png)
 
@@ -26,4 +26,6 @@
 - original data가 놓여있는 차원을 비선형 매핑하여 고차원 공간으로 변환
 
 ![SVM3](../../img/SVM3.png)
+
+- 커널함수(hyper parameter)를 만든 후 decision boundary를 긋고 다시 원래함수로 돌아옴
 
