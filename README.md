@@ -10,9 +10,15 @@
 - [기초 수학](https://github.com/jmsmg/TIL/blob/main/기초수학/mathmatics.md)
 
 ## MachineLearning
+- preprocessing
+  - [Feature_Scaling](https://github.com/jmsmg/TIL/tree/main/MachineLearning/preprocessing/Feature_Scaling.md)
+  - [HPO](https://github.com/jmsmg/TIL/tree/main/MachineLearning/preprocessing/HPO.md)
+
 - SuperviesedLearning
   - [MachineLearning1](https://github.com/jmsmg/TIL/tree/main/MachineLearning/SuperviesedLearning/MachineLearning1.md)
   - [SVM](https://github.com/jmsmg/TIL/tree/main/MachineLearning/SuperviesedLearning/SVM.md)
+
+
 - [MachineLearning2](https://github.com/jmsmg/TIL/blob/main/MachineLearning/MachineLearning2.md)
 - [Scikit-Learn](https://github.com/jmsmg/TIL/blob/main/MachineLearning/Scikit-Learn.md)
 
@@ -44,3 +50,8 @@
 
 ## 도서
 - [데이터_과학자와_엔지니어를_위한_인터뷰_문답집](https://github.com/jmsmg/TIL/blob/main/도서/데이터_과학자와_엔지니어를_위한_인터뷰_문답집.md)
+  
+## 공모전
+- 수상작
+  - [2위팀](https://github.com/jmsmg/TIL/tree/main/공모전/수상작/[2위]SIlab.ipynb)
+- [Baseline](https://github.com/jmsmg/TIL/tree/main/공모전/HAICon2021_Baseline.ipynb)

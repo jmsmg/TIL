@@ -18,11 +18,11 @@
 
   - 다른 정규화는 columns의 통계치를 이용하지만, Normalizer는 row마다 각각 정규화
 
-![Euclidean distance](../img/Feature_Scaling2.jpg)
+![Euclidean distance](../../img/Feature_Scaling2.jpg)
 
 ---
 
-![Normalization](../img/Feature_Scaling.jpg)
+![Normalization](../../img/Feature_Scaling.jpg)
 
 - 새로운 데이터를 넣을때
   ```python
