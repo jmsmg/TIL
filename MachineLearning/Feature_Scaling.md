@@ -26,7 +26,7 @@
 
 - 새로운 데이터를 넣을때
   ```python
-  sc = ~~.MinMaxScalor() # 또는 Standad scalor()
+  sc = ~~.MinMaxScalor() # 또는 Standad scaler()
   data = sc.transform([[0.065, 3, 12, 758]])
   model.predict(data)
   ```
