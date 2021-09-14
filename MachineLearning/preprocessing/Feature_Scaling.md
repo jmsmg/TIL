@@ -9,11 +9,16 @@
 ## 2. min-max scaling
 - 모든 feature를 0~1 사이 값에 위치하게함
 
-## 3. RobustScaler
+![Normalization](../../img/Feature_Scaling.jpg)
+
+
+## 3. Robust scaler
   > Outlier의 영향이 적다
 - 모든 특성들이 같은 크기를 갖는다는 점에서 Standardization과 유사하지만, mean(평균)과 variance(분산) 대신 median(중앙값)과 quartile(분위)을 사용함
 
-## 4. Normalizer
+![Robust Scaler](../../img/Feature_Scaling3.png)
+
+## 4. Euclidean Normalizer
   > over fitting 확률이 낮아짐, Normalizer는 유클리드 거리가 1이 되도록 데이터를 조정
 
   - 다른 정규화는 columns의 통계치를 이용하지만, Normalizer는 row마다 각각 정규화
@@ -22,7 +27,6 @@
 
 ---
 
-![Normalization](../../img/Feature_Scaling.jpg)
 
 - 새로운 데이터를 넣을때
   ```python
