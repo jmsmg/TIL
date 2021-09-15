@@ -33,7 +33,7 @@
 
 - 맨하탄 거리와 유클리드 거리의 일반화. m제곱한 후 m제곱근을 씌워주는 거리. 두 성분 중 더 크게 떨어진 성분으로 수렴하게 된다. 많이 떨어진 특성을 부각시킬 때 사용한다.
 
-
+![Minkowski Distance](../../img/KNN_9.png)
 ![Minkowski Distance](../../img/KNN_8.png)
 
 ### Mahalanobis distance
