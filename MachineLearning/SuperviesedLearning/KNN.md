@@ -2,7 +2,7 @@
 > 성능 안좋음
 
 ## KNN
-- 속도가 빠르고, 데이터가 입력되면 그제서야 데이터 분류를 함(Lazy model)
+- 속도가 빠르고, 데이터가 입력되면 그제서야 데이터 분류를 함(Lazy model)  
 ![KNN](../../img/KNN_1.png)
 
 - Hyper parameter
