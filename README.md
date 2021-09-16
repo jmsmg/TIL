@@ -10,13 +10,15 @@
 - [기초 수학](https://github.com/jmsmg/TIL/blob/main/기초수학/mathmatics.md)
 
 ## MachineLearning
+
 - preprocessing
   - [Feature_Scaling](https://github.com/jmsmg/TIL/tree/main/MachineLearning/preprocessing/Feature_Scaling.md)
   - [HPO](https://github.com/jmsmg/TIL/tree/main/MachineLearning/preprocessing/HPO.md)
 
-- SuperviesedLearning
-  - [MachineLearning1](https://github.com/jmsmg/TIL/tree/main/MachineLearning/SuperviesedLearning/MachineLearning1.md)
-  - [SVM](https://github.com/jmsmg/TIL/tree/main/MachineLearning/SuperviesedLearning/SVM.md)
+- SupervisedLearning
+  - [MachineLearning1](https://github.com/jmsmg/TIL/tree/main/MachineLearning/SupervisedLearning/MachineLearning1.md)
+  - [SVM](https://github.com/jmsmg/TIL/tree/main/MachineLearning/SupervisedLearning/SVM.md)
+  - [KNN](https://github.com/jmsmg/TIL/tree/main/MachineLearning/SupervisedLearning/KNN.md)
 
 
 - [MachineLearning2](https://github.com/jmsmg/TIL/blob/main/MachineLearning/MachineLearning2.md)
@@ -24,6 +26,9 @@
 
 ## DeepLearning
 - [RNN](https://github.com/jmsmg/TIL/blob/main/DeepLearning/RNN.md)
+
+- 데이터별 분석방법
+  - [Time_Series_data](https://github.com/jmsmg/TIL/blob/main/DeepLearning/데이터별 분석방법/Time_Series_data.md)
 
 ## ADsP
 - [ADsP 1과목](https://github.com/jmsmg/TIL/blob/main/ADsP/ADsP1.md)
