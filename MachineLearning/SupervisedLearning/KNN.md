@@ -6,7 +6,7 @@
 ![KNN](../../img/KNN_1.png)
 
 - Hyper parameter
-    - K 값
+    - K 값 (가까운 데이터 갯수)
     - 거리 척도
 
 ## 거리 척도
