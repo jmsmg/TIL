@@ -9,7 +9,10 @@
 ## 기초수학
 - [기초 수학](https://github.com/jmsmg/TIL/blob/main/기초수학/mathmatics.md)
 
+
 ## MachineLearning
+
+![MachineLearning](../TIL/img/README_ML.png)
 
 - preprocessing
   - [Feature_Scaling](https://github.com/jmsmg/TIL/tree/main/MachineLearning/preprocessing/Feature_Scaling.md)
