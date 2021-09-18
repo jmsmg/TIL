@@ -15,8 +15,18 @@
 
 - 실행 가능 창
   - cloud console
+    > Lambda 창에서 실행
   - command line
-  - Triger
+  - Trigger
+    > Lambda는 다른 AWS 서비스와 연동 가능
+
+1. Trigger
+- API 게이트웨이
+  - 어떤 URL에 접속했을때 Lambda가 실행 됨
+- DynamoDB
+  - DynamoDB에 어떤 일이 발생했을때 Lambda가 실행 됨
+- S3
+  - AWS에 파일이 업로드 되었을때 Lambda함수가 실행 됨
 
     ```python
 
