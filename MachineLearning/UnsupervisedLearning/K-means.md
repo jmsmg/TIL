@@ -26,3 +26,7 @@
       - c1(첫번째 데이터 포인트) 위치에 하나를 찍는다.
       - c1에서 가장 먼 데이터 값에 c2를 찍는다.
       - c1, c2 모두 가장 먼 값을 찍는다.
+ 
+- k-means는 X값만 넣음(라벨, Y값이 없는 unsupervised Learning)
+- k-means.labels_ = Y값으로도 사용 가능 (정답은 아님)
+- k-means.cluster_centers_
