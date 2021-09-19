@@ -24,16 +24,18 @@
 - API 게이트웨이
   - 어떤 URL에 접속했을때 Lambda가 실행 됨
 - DynamoDB
-  - DynamoDB에 어떤 일이 발생했을때 Lambda가 실행 됨
+  - DynamoDB에 어떤 일이 발생했을때 Lambda가 실행 됨 
 - S3
   - AWS에 파일이 업로드 되었을때 Lambda함수가 실행 됨
 
     ```python
-
     def lambda_handler(event, context):
         print(event)
         return event["left"]+event["right"]
     ```
+- 재귀호출
+  - 다른 서비스와 연동하기 
+
 
 ### 테스트
 - 실행결과 -> 세부정보로 이벤트 결과 확인 가능
@@ -54,9 +56,13 @@
 - Log stream
   - 새로운 Log 확인 가능
 
-## 디버깅 방법
-
 ## 가격정책
+- 함수요청 수와 기간
+  > 100만건/ 40만 초
+  
+- 기본설정 - 편집
+  - 메모리
+    - 
 
 
 ---
