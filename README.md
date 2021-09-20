@@ -12,7 +12,7 @@
 
 ## MachineLearning
 
-![MachineLearning](../TIL/img/README_ML.png)
+![MachineLearning](https://github.com/jmsmg/TIL/blob/main/img/README_ML.png)
 
 - preprocessing
   - [Feature_Scaling](https://github.com/jmsmg/TIL/tree/main/MachineLearning/preprocessing/Feature_Scaling.md)
@@ -31,7 +31,7 @@
 - [RNN](https://github.com/jmsmg/TIL/blob/main/DeepLearning/RNN.md)
 
 - 데이터별 분석방법
-  - [Time_Series_data](https://github.com/jmsmg/TIL/blob/main/DeepLearning/데이터별 분석방법/Time_Series_data.md)
+  - [Time_Series_data](https://github.com/jmsmg/TIL/blob/main/DeepLearning/데이터별%20분석방법/Time_Series_data.md)
 
 ## ADsP
 - [ADsP 1과목](https://github.com/jmsmg/TIL/blob/main/ADsP/ADsP1.md)
