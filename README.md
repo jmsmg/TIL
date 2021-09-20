@@ -51,6 +51,8 @@
 - [AWS1_Cloud_Computing](https://github.com/jmsmg/TIL/blob/main/AWS/AWS1-Cloud_Computing.md)
 - [AWS2-Global_Infra](https://github.com/jmsmg/TIL/blob/main/AWS/AWS2-Global_infra.md)
 - [AWS3-Network](https://github.com/jmsmg/TIL/blob/main/AWS/AWS3-Network.md)
+- [AWS_Lambda](https://github.com/jmsmg/TIL/blob/main/AWS/AWS_Lambda.md)
+- [AWS_API_Gateway](https://github.com/jmsmg/TIL/blob/main/AWS/AWS_API_Gateway.md)
 - [AWS_Marketplace](https://github.com/jmsmg/TIL/blob/main/AWS/AWS_Marketplace.md)
 
 ## 논문
