@@ -18,7 +18,12 @@
   - pop : 리스트의 지정한 위치에 원소 삭제(위치를 지정)
   - remove : 리스트에 들어있는 원소 삭제(원소를 지정)
 
-- Format : 
+- format()
+  - format(value, format_spec)
+  - 형식 지정자가 제어하는 주어진 값의 형식화 된 표현을 출력
+
+- filter
+
 
 ---
 
