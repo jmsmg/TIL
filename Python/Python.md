@@ -1,6 +1,27 @@
 # 파이썬 문법
 
-## 잘 모르는 부분 계속 추가
+## Built_function
+
+- List
+  - append : 리스트 끝에 원소 추가(변수 자체를 넣음(리스트 안에 리스트도 가능))
+  - extend : 리스트 끝에 모든 원소 추가(iterable의 각 항목을 넣음)
+    > [append vs extend](https://m.blog.naver.com/wideeyed/221541104629)
+
+  - copy : 원본에 영향을 주지않기 위해 사용
+  - clear : 리스트 안에 원소 모두 삭제
+    > copy(deep copy)를 한 함수는 사라지지않음
+
+  - count(a) : 리스트 안에 원소 a의 갯수 반환
+
+  - insert(a,b) : 리스트의 a위치에 b원소 삽입
+  
+  - pop : 리스트의 지정한 위치에 원소 삭제(위치를 지정)
+  - remove : 리스트에 들어있는 원소 삭제(원소를 지정)
+
+- Format : 
+
+---
+
 
 ### 1. Comprehension
 
@@ -15,3 +36,5 @@
 - Generator Expression
 
 > https://codechacha.com/ko/python-comprehension/
+
+
