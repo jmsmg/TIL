@@ -11,7 +11,7 @@
 ## 명령어
   > 구조 : 명령어 -parameter(option)
 
-### Directory
+## Directory
 
 - 도움말 : (명령어) --help 또는 man (명령어)
   > man 입력시
@@ -42,7 +42,7 @@
   - dr~~ : 폴더
   - -rw~~ : 파일
 
-### Permission
+## Permission
 > sudo(super user do)
 
 - rm -rf / : 묻지도 따지지도 않고 directory 안에 내용 모두 삭제
@@ -51,7 +51,7 @@
 - apt-get install git : git 설치 명령어
   > sudo로 권한 부여하여야 함
 
-### File edit(nano, vi)
+## File edit(nano, vi)
 > 파일 편집기
 
 ![nano](../img/linux_2.png)
@@ -60,3 +60,18 @@
   > 새로운 파일 생성
   - nano 파일명 : 실행
 
+## Package manager
+> 앱스토어와 비슷함 apt와 yum이 있지만 둘이 비슷함
+
+- apt
+  > sudo(permission) 권한 부여를 해주어야함
+  - apt-get update; : 소프트웨어 목록 다운로드
+  - apt-get upgrade : 뒤에 아무것도 입력하지 않으면 모든 소프트웨어 업그레이드
+  - sudo apt-cache search htop(패키지목록) : update로 가져온 목록 찾기
+
+## wget
+> URL을 통한 다운로드 프로그램
+
+- 명령어
+  - wget URL
+  - wget -O paris.jpeg URL : paris.jpeg로 다운로드
