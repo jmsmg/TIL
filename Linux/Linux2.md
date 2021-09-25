@@ -15,3 +15,11 @@
     - ls --help | grep 검색어 (pipe 기능)
     - ps aux | grep 검색어 (pipe)
     > 이전 출력을 입력으로 pipeline 구축
+
+## IO Redirection
+> 출력되는 것을 다른곳으로 돌려서 파일에 저장하는 것
+
+### Output Redirection
+- ls -l > result.txt : ls -l의 결과를 result.txt에 저장
+  - 1> : standard output (표준 출력)
+  - 2> : standard error (표준 에러)
