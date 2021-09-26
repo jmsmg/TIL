@@ -35,3 +35,18 @@
   - head -n1 < linux.txt > one.txt : linux.txt의 내용을 인풋으로 넣고 결과를 one.txt에 저장
 
 ## Shell
+> shell은 여러개 가지고 있을 수 있음(사용자마다)
+![kernel vs shell](../img/linux2_2.png)
+
+### bash vs zsh
+- 제품의 차이일뿐
+  - zsh가 조금 더 편의성 있음
+
+- 기본 명령어
+  - echo $0 : 사용 프로그램 확인
+  - cd /h/u/ 이후 tab 키 : 자동완성 기능 적용 (zsh)
+
+### script
+- #!/bin/bash : 맨 앞에 #! 붙고 경로가 붙으면 그 프로그램으로 해석해야함 (/bin/bash bash로 해석)
+
+![script](../img/Linux2_3.png)
