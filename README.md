@@ -6,7 +6,6 @@
 
 ## Linux
 - [Linux1](https://github.com/jmsmg/TIL/blob/main/Linux/Linux1.md)
-
 - [Linux2](https://github.com/jmsmg/TIL/blob/main/Linux/Linux2.md)
 
 ## Python
@@ -59,6 +58,7 @@
 - [AWS3-Network](https://github.com/jmsmg/TIL/blob/main/AWS/AWS3-Network.md)
 - [AWS_Lambda](https://github.com/jmsmg/TIL/blob/main/AWS/AWS_Lambda.md)
 - [AWS_API_Gateway](https://github.com/jmsmg/TIL/blob/main/AWS/AWS_API_Gateway.md)
+- [AWS_S3](https://github.com/jmsmg/TIL/blob/main/AWS/AWS_S3.md)
 - [AWS_Marketplace](https://github.com/jmsmg/TIL/blob/main/AWS/AWS_Marketplace.md)
 
 ## 논문
