@@ -50,3 +50,28 @@
 - #!/bin/bash : 맨 앞에 #! 붙고 경로가 붙으면 그 프로그램으로 해석해야함 (/bin/bash bash로 해석)
 
 ![script](../img/Linux2_3.png)
+
+## Directory structure 
+
+- / : root 디렉토리
+
+- /bin : user binaries
+  > 실행가능 프로그램(명령어)
+
+- /sbin : system binaries
+  > 시스템 관리자
+
+- /etc : configuration files
+  > 설정 파일(리눅스는 설정이 파일 형태로 존재)
+
+- /var : variable files
+  > 바뀔 수 있는 파일(log)
+
+- /tmp : temporary files
+  > 임시파일(재부팅시 삭제됨)
+
+- /home : home directories
+  > cd ~ : home directory로 이동
+
+- /opt : optional and add-on applications
+  > 앱 디렉토리를 지정할때 여기에 넣으면 좋음
