@@ -75,3 +75,9 @@
 
 - /opt : optional and add-on applications
   > 앱 디렉토리를 지정할때 여기에 넣으면 좋음
+
+## ps top htop
+  > process(ps)
+
+- ps aux : 실행되는 모든 프로그램 표시(작업관리자)
+- sudo kill (process id) : 강제 종료
