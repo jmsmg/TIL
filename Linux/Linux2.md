@@ -24,6 +24,7 @@
   - &#62; output
   - &#62;&#62; append
   - dev/null 휴지통
+
 ### Output
 - ls -l > result.txt : ls -l의 결과를 result.txt에 저장
   - 1> : standard output (표준 출력)
@@ -81,3 +82,23 @@
 
 - ps aux : 실행되는 모든 프로그램 표시(작업관리자)
 - sudo kill (process id) : 강제 종료
+
+## locate, find
+
+- 파일
+  - 데이터 보관
+  - 명령어 보관 (실행파일)
+
+- locate(mlocate)
+  > directory를 뒤지지 않고 database만 뒤져봄(빠르지만 확실하지않음)
+  - sudo mlocatedb : 현재 컴퓨터에 대한 정보를 db에 저장(리눅스는 정기적으로 됨)
+
+- find
+  > 디렉토리를 뒤져봄(느림)
+  - . : 현재 directory
+  - -o : or문
+  - -name : 이름으로 검색
+
+  - wild card
+    - &#42; : 모든 단어
+      > e* : e로 시작하는 모든단어
