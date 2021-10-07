@@ -102,3 +102,14 @@
   - wild card
     - &#42; : 모든 단어
       > e* : e로 시작하는 모든단어
+
+---
+
+## file 종류
+
+- text
+- binary(ascii)
+- date
+
+- magic file : 파일분류를 위한 정보가 들어 있음
+  > /usr/share/magic이나 /usr/lib/magic
