@@ -85,7 +85,7 @@
 
 ## locate, find
 
-- 파일
+- 파일 종류
   - 데이터 보관
   - 명령어 보관 (실행파일)
 
@@ -112,4 +112,10 @@
 - date
 
 - magic file : 파일분류를 위한 정보가 들어 있음
-  > /usr/share/magic이나 /usr/lib/magic
+  > /usr/share/magic이나 /usr/lib/
+
+### 매직파일
+- 명령어
+  - file
+    - -m 매직파일 확인
+    - -C -m 컴파일
