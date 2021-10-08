@@ -18,6 +18,9 @@
 
 - 파일 생성시 3번부터 file descriptor가 부여됨
 
+## C언어 자료형
+- signed : 정수형 처리에서 부호가 있는 자료형
+- unsigned : 정수형 처리에서 부호가 없는 자료형
 
 ## 기본용어
 - buffer : 일시 저장소
@@ -34,7 +37,9 @@
 ```c
 #include <unistd.h>
 
-int main()
+int main(){
+    write(fd, str, size)
+}
 ```
 ## read()
   > 파일,
