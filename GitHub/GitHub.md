@@ -1,3 +1,13 @@
+# 깃허브 재연동
+
+- git remote rm origin
+
+- git remote add origin URL
+
+- 이후 최초 푸쉬할 때 git push --set-upstream origin master 
+
+---
+
 습관적으로 git log 타이핑
 
 레파지토리 생성
