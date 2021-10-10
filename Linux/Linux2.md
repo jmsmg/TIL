@@ -64,6 +64,7 @@
 
 - /etc : configuration files
   > 설정 파일(리눅스는 설정이 파일 형태로 존재)
+  - ~rc : run commands file 
 
 - /var : variable files
   > 바뀔 수 있는 파일(log)
