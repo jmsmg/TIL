@@ -9,8 +9,13 @@
 - [C언어3](https://github.com/jmsmg/TIL/blob/main/C/C언어3.md)
 
 ## Linux
+- [Linux_command](https://github.com/jmsmg/TIL/blob/main/Linux/Linux_command.md)
 - [Linux1](https://github.com/jmsmg/TIL/blob/main/Linux/Linux1.md)
 - [Linux2](https://github.com/jmsmg/TIL/blob/main/Linux/Linux2.md)
+- [Linux3](https://github.com/jmsmg/TIL/blob/main/Linux/Linux3.md)
+
+## SSH
+- [SSH 발급요령](https://github.com/jmsmg/TIL/blob/main/SSH/SSH.md)
 
 ## Python
 - [Python](https://github.com/jmsmg/TIL/blob/main/Python/Python.md)
