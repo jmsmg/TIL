@@ -1,3 +1,5 @@
+# gcc
+
 gcc -Wall -Wextra -Werror 합칠 파일명 -o 만들 파일
 
 - Wall
@@ -16,3 +18,11 @@ int main(){
     ft_print_reverse_alphabet();
 }
 ```
+
+## 헤더 설정
+
+- 환경변수
+  - export MAIL=
+
+- 설정변경 
+  - ~/.zshrc
