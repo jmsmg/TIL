@@ -4,6 +4,10 @@
 
 ---
 ## C
+- gcc  
+  - [gcc](https://github.com/jmsmg/TIL/blob/main/C/gcc/gcc.md)
+- low_function
+  - [linux_C](https://github.com/jmsmg/TIL/blob/main/C/low_function/Linux_C.md)
 - [C언어1](https://github.com/jmsmg/TIL/blob/main/C/C언어1.md)
 - [C언어2](https://github.com/jmsmg/TIL/blob/main/C/C언어2.md)
 - [C언어3](https://github.com/jmsmg/TIL/blob/main/C/C언어3.md)
