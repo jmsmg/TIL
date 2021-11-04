@@ -1,7 +1,7 @@
-- 스타일 후기 데이터 수집
+- 스타일 후기 데이터 수집  
 ![사진](../Final_Musinsa_Style_review/스타일%20후기.png)
 
-- 데이터
+- 데이터  
 ![사진](../Final_Musinsa_Style_review/사진.png)
 
 - 구현  
