@@ -12,6 +12,7 @@
     > copy(deep copy)를 한 함수는 사라지지않음
 
   - count(a) : 리스트 안에 원소 a의 갯수 반환
+  - index : 리스트 값의 위치를 반환
 
   - insert(a,b) : 리스트의 a위치에 b원소 삽입
   
@@ -22,7 +23,11 @@
   - format(value, format_spec)
   - 형식 지정자가 제어하는 주어진 값의 형식화 된 표현을 출력
 
-- filter
+- filter(functiom, iterable)
+  - iterable의 각 요소가 tru인지 아닌지 확인후 출력
+
+- Map(function, iterable, ...)
+  - 주어진 function을 iterable의 각 항목에 적용하고 결과 목록을 출력
 
 
 ---
