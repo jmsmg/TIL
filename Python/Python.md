@@ -1,5 +1,81 @@
 # 파이썬 문법
 
+## algorithm
+  > 문제에서 일정한 패턴을 발견하고, 패턴을 토대로 문제를 해결하는 절차
+
+![압축 알고리즘](../img/Python_01.png)
+
+## interacive shell
+  > interpreter : C 언어
+
+- interactive mode : 인터프리터와 대화하듯 코드를 처리
+
+![REPL](../img/Python_02.png)
+
+## 숫자 자료형
+
+- 강제 전환 : int, float, complex
+  - int(숫자)
+  - int(계산식)
+  - int('문자열')
+
+![숫자](../img/Python_03.png) 
+
+- 거듭제곱 : **
+
+### 나눗셈 
+
+- 나눗셈
+  - / : 정수 / 정수 = 실수
+  - // : 정수 // 정수 = 정수
+    > floor division
+
+- divmod (quotient, remainder) : 몫과 나머지 함께 구하기
+  - 몫과 나머지가 튜플 형태로 나옴
+
+- type() : 자료형 알아내기
+  - type(숫자)
+  - type(계산식)
+  - type('문자열')
+
+### 진수표현 base, decimal
+
+- 2진수 : 0b (binary)
+- 8진수 : 0o (october)
+- 16진수 : 0x (hexa)
+
+### 실수 계산
+  > 실수값은 오차가 있음
+
+## 변수
+
+``` python
+  # 기본 할당
+  x = 10
+
+  # 빈 변수
+  x = none
+
+  # 순차적 할당
+  x, y = 10, 20
+ 
+  # 마지막 10을 x,y,z에 할당
+  x = y = z = 10
+```
+
+- del 변수 : 변수 삭제
+
+- 할당과 동시에 연산
+  - -=
+  - +=
+  - *=
+  - /=
+
+- 입력값 변수 저장
+  - input()
+
+---
+
 ## Built_function
 
 - List
