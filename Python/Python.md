@@ -124,7 +124,12 @@ zzzz"""
 print(hello)
 ```
 
+## List
 
+- a = []로 빈 리스트와 append를 활용함
+- a = list(range(0, 10))
+
+## tuple
 
 ---
 
@@ -174,5 +179,3 @@ print(hello)
 - Generator Expression
 
 > https://codechacha.com/ko/python-comprehension/
-
-
