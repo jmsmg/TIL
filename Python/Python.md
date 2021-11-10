@@ -112,6 +112,20 @@ print(1, end='') # 끝부분 지정 일반적으로 개행
   - and
   - or
 
+## 문자열 사용
+
+- 따옴표 3개로 multiline string 사용
+
+``` python
+hello = """hello
+world
+zzzz"""
+
+print(hello)
+```
+
+
+
 ---
 
 ## Built_function
