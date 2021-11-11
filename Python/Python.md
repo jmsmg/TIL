@@ -124,12 +124,49 @@ zzzz"""
 print(hello)
 ```
 
-## List
+## sequence type
+  > 연속적으로 이어진 자료형
+
+- 시퀀스 객체에서 특정값 확인
+  - in
+  - not in
+
+- *, +연산자로 이어붙일 수 있음 (range는 불가능하여 리스트나 튜플로 만들어야함)
+
+``` python
+a = [0, 10, 20, 30]
+30 in a
+```
+
+- len()으로 길이 측정 가능
+
+- index 사용
+```python
+a = 'hello'
+a[0]
+```
+### List
+
+- a = [38, 21, 53, 62, 19]
+  > 각 요소를 element라고 부름
 
 - a = []로 빈 리스트와 append를 활용함
 - a = list(range(0, 10))
+  
+### tuple
+  > 튜플은 값이 추가, 변경, 삭제가 불가능함
 
-## tuple
+- (38, ) 값이 1개인 튜플
+
+- b = tuple(range(5, 12, 2))
+
+### str
+
+### range
+
+### byte
+
+### bytearray
 
 ---
 
@@ -148,7 +185,7 @@ print(hello)
   - index : 리스트 값의 위치를 반환
 
   - insert(a,b) : 리스트의 a위치에 b원소 삽입
-  
+
   - pop : 리스트의 지정한 위치에 원소 삭제(위치를 지정)
   - remove : 리스트에 들어있는 원소 삭제(원소를 지정)
 
