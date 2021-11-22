@@ -8,13 +8,29 @@
   - S3 : 버킷
   - Lambda : 함수
 
-![function](../img/AWS_Lambda_1.png)
+## 구동 방식
+- 트리거 작동 -> 함수 실행
+  - AWS Lambda : 함수
+  - API Gateway : 트리거
+
+- event(요청, 로그 등) 
+- context(주소)
+- 예시
+``` python
+import json
+def lambda_handler(event, context):
+  return {
+    'statusCode': 200,
+    'body' : json.dumps('hello from Lambda!')
+  }
+```
+
+![function](. ./img/AWS_Lambda_1.png)
 > 블루프린트 : 예시
 
 ### 코드
 > 코드 생성창
 - 코드 save 후 deploy를 눌러야 실행 가능상태가 됨
-
 
 - 코드소스
 
