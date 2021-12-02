@@ -110,3 +110,15 @@
     - Serverless
       - ECS or EKS
       - EC2 or Fargate 
+
+## AWS 제어 방법
+ 
+- AWS GUI
+  - Management console
+ 
+- CLI
+  - aws 
+ 
+- SDK
+ 
+- API
