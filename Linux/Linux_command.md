@@ -138,3 +138,6 @@
 
 - [wc](https://ko.wikipedia.org/wiki/Wc_(유닉스)) 파일명 : 줄(line), 단어(word), 문자(char) 바이트
   - -l : 줄만 출력 (행)
+
+- ssh 가상머신 접속 : ssh -i ~/Documents/dev/key/pem파일 ubuntu@ip주소
+- ab : 부하발생기
