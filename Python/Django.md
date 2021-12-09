@@ -17,16 +17,65 @@
 ### 2. django 설치
 
 - 가상환경 접근
+
 - pip install django
+
 - django-admin startproject (프로젝트명) .
   - 현재 폴더에 (프로젝트명)의 폴더가 하나 생성됨
-  -
 
-### 사용 명령어 정리
+- python manage.py runserver 0:80 : (0) 나자신을 80포트로 서버 구동
+  - URL/admin : admin
+    > django는 풀스택 프레임워크로 필요한 모든 요소가 설치됨
+
+- python manage.py startapp (이름)
+  > django 홈페이지는 1개의 홈페이지가 여러개의 앱으로 구성되어있음
+
+- python manage.py migrate : 내용 반영
+
+## 3. djanog app 생성
+
+- python manage.py startapp main
+
+- setting.py
+  - INSTALED_APPS 앱 이름 추가
+
+## 4. URL
+
+- URL 생성
+  - 프로젝트/urls.py
+    - urls.py
+    - from main.views import index
+    - urlpatterns 
+      - [ path('', index), ]
+        > ''로 접속하면 index로 연결해줌
+  > urlpattern과 import 매칭 시켜줘야함
+
+- python manage.py runserver 0:80
+
+## 5. templates
+
+- views.py : 사용자에게 어떤화면을 전달할지
+``` python
+  def index(request):
+    return render(request, 'index.html') 
+```
+
+## 6. 요청 처리 응답
+
+- 
+
+
+---
+
+## 사용 명령어 정리
 
 - python
   - -V : 버전 체크
   - -m venv (이름) : (이름)의 가상환경을 만듬
+  - manage.py 
+    - runserver IP주소:포트
+    - startapp 앱이름
+    - migrate
 
 - source
   - (activate의 경로)
@@ -37,3 +86,38 @@
 
 - django-admin
   - startproject 프로젝트명 .
+
+## django 변수
+
+### project 폴더
+
+- settings.py
+  - ALLOWED_HOSTS : 접속 가능한 사람 (white list)
+  - INSTALLED_APPS : 이미 구현된 앱
+  - DEBUG
+    - TRUE(오류 내용 보여줌)
+    - FALSE (오류 내용 안보여줌)
+      > 일반적으로 FALSE
+
+
+- urls.py
+  - from 앱이름.views import index
+  - urlpatterns : 주소
+    - [ path('주소', index), ]
+  > urlpattern과 import 매칭 시켜줘야함
+
+### app 폴더
+  > 일반적으로 templates 폴더를 하나 더 만듬
+
+- templates
+- models.py : 저장공간(db)
+
+- views.py : 사용자에게 어떤화면을 전달할지
+``` python
+  def index(request):
+    return render(request, 'index.html') 
+```
+- urls.py
+
+---
+CSRF 해킹공격 
