@@ -41,6 +41,11 @@
 
 ## 4. URL
 
+- URL 연동 : 아래 3가지가 모두 연동되어야함
+  - 프로젝트폴더/urls.py/urlpatterns
+  - 앱폴더/views.py/ 함수
+  - 앱폴더/templates
+
 - URL 생성
   - 프로젝트/urls.py
     - urls.py
@@ -54,15 +59,33 @@
 
 ## 5. templates
 
-- views.py : 사용자에게 어떤화면을 전달할지
+- main/views.py : 사용자에게 어떤화면을 전달할지
 ``` python
   def index(request):
     return render(request, 'index.html') 
 ```
 
-## 6. 요청 처리 응답
+## 6. 요청 응답 처리
 
-- 
+- views.py
+  > return값에 알맞는 함수를 넣어보며 공부
+  - render
+    - HttpResponse를 return해주는 함수
+
+  - redirect
+    - 페이지 이동시켜주는 함수
+  
+  - HttpResponse
+    - 괄호 안에 스트링을 전송해줌
+
+- main/templates 폴더 생성
+  - index.html 생성
+
+- python manage.py runsever로 확인
+
+## 7. static file과 settings
+
+- ht 
 
 
 ---
@@ -92,13 +115,29 @@
 ### project 폴더
 
 - settings.py
-  - ALLOWED_HOSTS : 접속 가능한 사람 (white list)
-  - INSTALLED_APPS : 이미 구현된 앱
+  - BASE_DIR : 경로
   - DEBUG
-    - TRUE(오류 내용 보여줌)
+    - TRUE (오류 내용 보여줌)
     - FALSE (오류 내용 안보여줌)
       > 일반적으로 FALSE
-
+  - ALLOWED_HOSTS : 접속 가능한 사람 (white list)
+  - INSTALLED_APPS : 이미 구현된 앱
+    - 라이브러리를 앱 형태로 제공 되거나 직접 만듬
+  - MIDDLEWARE : 보안과 관련된 것들이 주로 제공
+  - ROOT_URLCONF : 프로젝트 안에 urls.py를 가르킴
+  - TEMPLATES
+  - WCGI_APPLICATION
+  - DATABASES : 데이터베이스 설정
+    - default는 sqlite3
+  - AUTH_PASSWORD_VALIDATORS : 유효성 검사
+  - LANGGUAGE_CODE : 언어
+    - 'ko-kr'
+  - TIME_ZONE : 시간
+    - 'Asia/Seoul'
+  - USE_I18N : 국제화
+  - USE_L10N : 현지화
+  - STATIC_URL : 정적파일을 서빙할 URL 구조
+  - STATICFILES_DIRS : 어떤폴더에 모여있게 할지
 
 - urls.py
   - from 앱이름.views import index
