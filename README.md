@@ -75,7 +75,7 @@
 - [AWS_Marketplace](https://github.com/jmsmg/TIL/blob/main/AWS/AWS_Marketplace.md)
 
 ## Network
-- [AWS_Marketplace](https://github.com/jmsmg/TIL/blob/main/Network/REST_API.md)
+- [REST_API](https://github.com/jmsmg/TIL/blob/main/Network/REST_API.md)
 
 ## 논문
 - [The Batch](https://github.com/jmsmg/TIL/tree/main/논문/TheBatch)
