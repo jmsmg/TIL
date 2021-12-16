@@ -23,6 +23,7 @@
 
 ## Python
 - [Python](https://github.com/jmsmg/TIL/blob/main/Python/Python.md)
+- [Django](https://github.com/jmsmg/TIL/blob/main/Python/Django.md)
 
 ## 기초수학
 - [기초 수학](https://github.com/jmsmg/TIL/blob/main/기초수학/mathmatics.md)
