@@ -1,11 +1,13 @@
 # Django
 
-## django 세팅 순서
+## django 구조
+
+![구조도](../img/Django_01.png)
 
 ### 1. 가상환경 세팅
 
 - 가상환경 설치
-  - python - m venv venv : venv라는 이름의 가상환경 생성
+  - python -m venv venv : venv라는 이름의 가상환경 생성
 
 - 가상환경 접근
   - source venv/bin/activate : 가상환경 실행
@@ -87,7 +89,28 @@
 
 - ht 
 
+## template language
 
+1. 템플릿 태그
+    - 템플릿 태그는 기존 Python에 있는 syntax에 해당하는 부분으로 if, else, for 구문을 사용할 수 있고 추가로 extend, block, include, etc를 사용할 수 있음
+
+``` html
+{% 문법 %}
+```
+
+2. 템플릿 변수
+    - 템플릿 변수는 render 함수나 JsonResponse 함수로 데이터를 전달 받아 html파일 안에서 호출되는 dictionary형 변수
+
+``` html
+{{ 변수 }}
+```
+
+3. 템플릿 필터
+    - 템플릿 필터는 변수값을 변환시켜 출력하기 위한 출력하기 위한 옵션
+
+``` html
+{{ 변수|옵션 }}
+```
 ---
 
 ## 사용 명령어 정리
