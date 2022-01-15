@@ -4,6 +4,7 @@
 
 ![구조도](../img/Django_01.png)
 
+- apache - WSGI - Django - db
 ### 1. 가상환경 세팅
 
 - 가상환경 설치
@@ -181,5 +182,20 @@
 ```
 - urls.py
 
+### model
+
+- db 생성
+  - python manage.py migrations
+    - db 생성
+  - python manage.py migrate
+    - db 반영
+
+- 데이터 넣기
+  - admin 사이트
+  - 데이터 시딩 -> 한번에
+  - 쉘창
+ㄴ
 ---
 CSRF 해킹공격 
+ORM 기법
+ERD
