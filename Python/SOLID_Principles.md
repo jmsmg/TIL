@@ -92,3 +92,28 @@ def hey(animal:Animal):
 
 - hey 함수 수정 없이 밖에서 확장 가능함
 
+## Liskov Substitution Principle (리스코프 치환 법칙)
+
+- type T가 있고, subtype s1, s2, s3가 있을때 type T는 subtype과 치환해도 가능해야함
+
+> ex) 고양이(T) / 검은고양이(s1), 하얀고양이(s2)
+
+``` python
+class Cat:
+    def speak(self):
+        print("meow")
+
+class BlackCat(Cat):
+    def speak(self):
+        print("black meow")
+
+def speak(cat:Cat):
+    cat.speak()
+
+# class Fish(Cat):
+#     def speak(self):
+#         raise Exception("Fish cannot speak")
+
+```
+
+- 전체적인 클래스 구조를 만들때 고양이, 피쉬를 제대로 생각하고 만들거나, 문제가 생기지 않게 또다른 방법을 사용하여야함
