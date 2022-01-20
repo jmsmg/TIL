@@ -125,3 +125,49 @@ def speak(cat:Cat):
     - 수륙양용차 -> 차 + 보트로 나눔
 
 ![Interface](../img/SOLID_01.png)
+
+## Dependency inversion principle
+
+- high level 모듈에서 low level 모듈에 의존하지 않고 추상화 모듈을 만들어 모두 추상화 class에 의존하게 함
+
+``` python
+class Cat:
+    def speak(self):
+        print("meow")
+
+class Dog:
+    def speak(self):
+        print("bark")
+
+class Zoo:
+    def __init__(self):
+        self.cat = Cat()
+        self.dog = Dog()
+```
+
+``` python
+
+class Animal:
+    def speak(self):
+        pass
+
+class Cat(Animal):
+    def speak(self):
+        print("meow")
+
+class Dog(Animal):
+    def speak(self):
+        print("bark")
+
+class Zoo:
+    def __init__(self):
+        self.animals = []
+
+    def addAnimal(self, animal:Animal):
+        self.animal.append(animal)
+
+    def speakALL(self):
+        for animal in self.animals:
+            animal.speak()
+
+```
