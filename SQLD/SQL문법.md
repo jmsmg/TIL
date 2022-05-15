@@ -1,6 +1,6 @@
 # SQL 문법
 
-## SELECT
+## SELECT 전반 기능
 
 - 모든 열 가져오기
 
@@ -65,3 +65,35 @@ WHERE
 ORDER BY CustomerName
 LIMIT 0, 5;
 ```
+
+## SELECT 연산자
+
+- 사칙연산
+
+```sql
+SELECT 5 - 2.5 AS DIFFERENCE;
+```
+
+- 문자열에 사칙연산을 가하면 문자열을 0으로 인식
+  - 문자열 안에 숫자는 자동으로 인식함
+
+```sql
+SELECT '1' + '002' * 3;
+
+-- 숫자로 구성된 문자열은 숫자로 자동인식
+```
+
+```sql
+SELECT
+  OrderID + ProductID
+FROM OrderDetails;
+```
+
+```sql
+SELECT
+  ProductName,
+  Price / 2 AS HalfPrice
+FROM Products;
+```
+
+- 참/거짓
