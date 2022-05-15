@@ -97,4 +97,3 @@ FROM Products;
 ```
 
 - 참/거짓
-
