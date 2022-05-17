@@ -97,3 +97,27 @@ FROM Products;
 ```
 
 - 참/거짓
+
+## SELECT 숫자와 문자
+
+- 숫자 관련 함수
+
+```sql
+SELECT
+  ROUND(0.5),
+  CEIL(0.4),
+  FLOOR(0.6);
+```
+
+```sql
+SELECT 
+  Price,
+  ROUND(price),
+  CEIL(price),
+  FLOOR(price)
+FROM Products;
+```
+
+## SELECT 시간/날짜
+
+## SELECT 조건에 따라 그룹으로 묶기
